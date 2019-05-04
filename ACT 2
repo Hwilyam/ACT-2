@@ -178,6 +178,11 @@ switch (a)
 			cout << "December, " << b << " " << c ; 
 			}
 		break; 
+	default:
+		cout << "THERE ARE ONLY 12 MONTHS IN A YEAR HEHE!!!!!"<<endl;
+		cout << " "<<endl;
+		cout << "WILLIAMSMONTH, " << b << " " << c<<endl;	
 	}
 	_getch ();
 	return 0;
+}
