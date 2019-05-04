@@ -1,0 +1,183 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std; 
+
+int main ()
+{
+	int a, b, c; 
+	
+	cout << "                                DATE ME CHAR                          "<<endl;
+	cout << "                           WELCOME TO INPUT A DATE                    "<<endl;
+	cout << " "<<endl;
+	cout << "----------------------------------------------------------------------"<<endl;
+	
+	cout << "1: January = 31 days\t 7: July = 31 days"<<endl;
+	cout << "2: Febuary = 28 days\t 8: August = 31 days"<<endl;
+	cout << "3: March = 31 days\t 9: September = 30 days"<<endl;
+	cout << "4: April = 30 days\t 10: October = 31 days"<<endl;
+	cout << "5: May = 31 days\t 11: November = 30 days"<<endl;
+	cout << "6: June = 30 days\t 12: December = 31 days"<<endl;
+	cout << " "<<endl;
+	cout << "----------------------------------------------------------------------"<<endl;
+	
+	cout << " "<<endl;
+	cout << "Enter Month: ";cin>>a;
+	cout << "Enter Day: ";cin>>b;
+	cout << "Enter Year: ";cin>>c;
+	
+	cout << " "<<endl;
+	cout << "----------------------------------------------------------------------" <<endl;
+	
+switch (a)
+	{
+
+    case 1: 
+    	if (a == 1 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "January, " << b << " " << c ; 
+			}
+		break; 
+		
+	case 2: 
+		if (a == 2 && b > 28)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "February, " << b << " " << c ; 
+			}
+		break; 
+	
+	case 3: 
+		if (a == 3 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "March, " << b << " " << c ; 
+			}
+		break; 
+		
+	case 4: 
+		if (a == 4 && b > 30)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "April, " << b << " " << c ; 
+			}
+		break; 
+		
+	case 5: 
+		if (a == 5 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "May, " << b << " " << c ; 
+			}
+		break; 
+	case 6: 
+		if (a == 6 && b > 30)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "June, " << b << " " << c ; 
+			}
+		break; 
+		
+	case 7: 
+		if (a == 7 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "July, " << b << " " << c ; 
+			}
+		break; 
+	case 8: 
+		if (a == 8 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "August, " << b << " " << c ; 
+			}
+		break; 
+		
+	case 9: 
+		if (a == 9 && b > 30)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "September, " << b << " " << c ; 
+			}
+		break;  	
+		
+	case 10: 
+		if (a == 10 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "October, " << b << " " << c ; 
+			}
+		break; 
+		
+	case 11: 
+		if (a == 11 && b > 30)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "November, " << b << " " << c <<endl;
+			if (b == 29)
+				{
+					cout <<"----------------------------------------------------------------------"<<endl;
+					cout <<"                           HAPPY BIRTHDAY TO ME!!!        "<<endl;
+			 	} 
+			}
+		break; 
+		
+	case 12: 
+		if (a == 12 && b > 31)
+			{
+			cout << "PLEASE CHECK THE CALENDAR!"; 
+			}
+			
+		else
+			{
+			cout << "December, " << b << " " << c ; 
+			}
+		break; 
+	}
+	_getch ();
+	return 0;
